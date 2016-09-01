@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ll_lesson_height">60dp</dimen>
+    <dimen name="tvNumeric_width">45dp</dimen>
+    <dimen name="tvTitle_size">50sp</dimen>
+</resources>

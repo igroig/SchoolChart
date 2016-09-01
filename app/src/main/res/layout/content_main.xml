@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.gio.schoolchart.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:id="@+id/llRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llMondey"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:background="#00f0f0"
+            android:text="@string/mondey"
+            android:id="@+id/tvTitleMondey"
+            android:textSize="@dimen/tvTitle_size"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ll_lesson_height" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ll_lesson_height">
+
+            <TextView
+                android:text="1."
+                android:gravity="center"
+                android:background="#adeade"
+                android:layout_width="@dimen/tvNumeric_width"
+                android:layout_height="match_parent" />
+
+            <EditText
+                android:text=""
+                android:id="@+id/etLessonMondey1"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginBottom="5dp"
+            android:background="#000000" />
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ll_lesson_height">
+
+        <TextView
+            android:text="2."
+            android:gravity="center"
+            android:background="#adeade"
+            android:layout_width="@dimen/tvNumeric_width"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/etLessonMondey2"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginBottom="5dp"
+        android:background="#000000" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ll_lesson_height">
+
+            <TextView
+                android:text="3."
+                android:gravity="center"
+                android:background="#adeade"
+                android:layout_width="@dimen/tvNumeric_width"
+                android:layout_height="match_parent" />
+
+            <EditText
+                android:id="@+id/etLessonMondey3"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginBottom="5dp"
+            android:background="#000000" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ll_lesson_height">
+
+            <TextView
+                android:text="4."
+                android:gravity="center"
+                android:background="#adeade"
+                android:layout_width="@dimen/tvNumeric_width"
+                android:layout_height="match_parent" />
+
+            <EditText
+                android:id="@+id/etLessonMondey4"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginBottom="5dp"
+            android:background="#000000" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ll_lesson_height">
+
+            <TextView
+                android:text="5."
+                android:gravity="center"
+                android:background="#adeade"
+                android:layout_width="@dimen/tvNumeric_width"
+                android:layout_height="match_parent" />
+
+            <EditText
+                android:id="@+id/etLessonMondey5"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginBottom="5dp"
+            android:background="#000000" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ll_lesson_height">
+
+            <TextView
+                android:text="6."
+                android:gravity="center"
+                android:background="#adeade"
+                android:layout_width="@dimen/tvNumeric_width"
+                android:layout_height="match_parent" />
+
+            <EditText
+                android:id="@+id/etLessonMondey6"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginBottom="5dp"
+            android:background="#000000" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ll_lesson_height">
+
+            <TextView
+                android:text="7."
+                android:gravity="center"
+                android:background="#adeade"
+                android:layout_width="@dimen/tvNumeric_width"
+                android:layout_height="match_parent" />
+
+            <EditText
+                android:id="@+id/etLessonMondey7"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginBottom="5dp"
+            android:background="#000000" />
+
+        </LinearLayout>
+        <!-- -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+
+        <LinearLayout
+            android:id="@+id/llThusday"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:background="#00f0f0"
+                android:text="@string/tuesday"
+                android:id="@+id/tvTitleTuesday"
+                android:textSize="@dimen/tvTitle_size"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="1."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonTuesday1"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="2."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonTuesday2"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="3."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonTuesday3"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="4."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonTuesday4"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="5."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonTuesday5"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="6."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonTuesday6"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="7."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonTuesday7"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+        </LinearLayout>
+
+        <!-- -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+
+        <LinearLayout
+            android:id="@+id/llWednesday"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:background="#00f0f0"
+                android:text="@string/wednesday"
+                android:id="@+id/tvTitleWednsday"
+                android:textSize="@dimen/tvTitle_size"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="1."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonWednesday1"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="2."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonWednesday2"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="3."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonWednesday3"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="4."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonWednesday4"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="5."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonWednesday5"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="6."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonWednesday6"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="7."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonWednesday7"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+        </LinearLayout>
+
+        <!-- -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+
+        <LinearLayout
+            android:id="@+id/llThursday"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:background="#00f0f0"
+                android:text="@string/thursday"
+                android:id="@+id/tvTitleThursday"
+                android:textSize="@dimen/tvTitle_size"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="1."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonThursday1"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="2."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonThursday2"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="3."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonThursday3"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="4."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonThursday4"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="5."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonThursday5"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="6."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonThursday6"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="7."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonThursday7"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+        </LinearLayout>
+
+        <!-- -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+
+        <LinearLayout
+            android:id="@+id/llFriday"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:background="#00f0f0"
+                android:text="@string/friday"
+                android:id="@+id/tvTitleFriday"
+                android:textSize="@dimen/tvTitle_size"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="1."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonFriday1"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="2."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonFriday2"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="3."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonFriday3"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="4."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonFriday4"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="5."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonFriday5"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="6."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonFriday6"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="7."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonFriday7"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+        </LinearLayout>
+
+        <!-- -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+
+        <LinearLayout
+            android:id="@+id/llSaturday"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:background="#00f0f0"
+                android:text="@string/saturday"
+                android:id="@+id/tvTitleSaturday"
+                android:textSize="@dimen/tvTitle_size"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="1."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonSaturday1"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="2."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonSaturday2"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="3."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonSaturday3"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="4."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonSaturday4"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="5."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonSaturday5"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="6."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonSaturday6"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ll_lesson_height">
+
+                <TextView
+                    android:text="7."
+                    android:gravity="center"
+                    android:background="#adeade"
+                    android:layout_width="@dimen/tvNumeric_width"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/etLessonSaturday7"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginBottom="5dp"
+                android:background="#000000" />
+
+        </LinearLayout>
+
+        <!--==================================================================================================-->
+    </LinearLayout>
+
+
+</ScrollView>
